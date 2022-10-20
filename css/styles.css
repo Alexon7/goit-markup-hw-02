@@ -114,13 +114,14 @@ ul {
 .title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.36x;
+	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
 }
 .title-button {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -136,7 +137,7 @@ ul {
 .benefits {
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 1.14x;
+	line-height: 1.14;
 	text-transform: uppercase;
 
 	color: var(--title-text-color);
